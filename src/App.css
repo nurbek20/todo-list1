@@ -1,0 +1,38 @@
+/*? auth css  */
+.auth-page {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.btn-reg{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+/* ? main-page css */
+.todos{
+    margin-top: 50px;
+    overflow-y: auto;
+    height: 300px;
+}
+.todos-item {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-left: 2px solid #2196f3;
+    position: relative;
+}
+.todos-buttons {
+    margin-left: auto;
+    display: flex;
+}
+.todos-buttons i{
+    margin: 0 10px;
+    z-index: 1;
+}
+.todos-buttons i:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
